@@ -1,0 +1,12 @@
+.up-btn {
+  background-color: #d4ac66e9;
+  padding: 15px;
+  border-radius: 5px;
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+}
+
+a {
+  cursor: pointer;
+}

@@ -1,0 +1,30 @@
+<div class="border p-2 m-4" style="border-radius: 5px;">
+  <!-- <div style="height: 330px;" class="mx-auto">
+    <carousel class="p-1">
+      <slide *ngFor="let picture of project.pictures"><img src={{picture}} alt="slide1" style="display: block; width: 100%;"></slide>
+    </carousel>
+  </div> -->
+  <h4 style="color: #cea255e9;" class="m-4">{{project.name}}</h4>
+  <p class="text-justify mb-4">{{project.description}}</p>
+  <p class="text-left">
+    <i class="fas fa-desktop"></i>
+    <strong> Frontend:</strong>
+    {{project.frontEnd}}
+  </p>
+  <p class="text-left">
+    <i class="fas fa-server"></i>
+    <strong> Backend:</strong>
+    {{project.backEnd}}
+  </p>
+  <p class="text-left">
+    <i class="fas fa-database"></i>
+    <strong> Database:</strong>
+    {{project.database}}
+  </p>
+  <div class="border-top p-2">
+    <a href={{project.projectLink}}>
+      <i class="fab fa-github"></i>
+      code
+    </a>
+  </div>
+</div>

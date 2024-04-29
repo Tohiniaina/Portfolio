@@ -1,0 +1,11 @@
+.btn-cv {
+  background: #cea255e9;
+}
+
+.btn-cv:hover {
+  background: #ae7614eb;
+}
+
+.profil-picture {
+  border: solid #cea255e9 6px !important;
+}
