@@ -14,7 +14,7 @@ export class ProjectsService {
       backEnd: 'SpringBoot (JAVA)',
       database: 'PostgreSQL',
       description: "Okaz est une multi-plateforme dédiée au vente de voiture d'occasion ou neuve. Cette application permet aux utilisateurs de consulter des annonces, de publier des annonces de vente, de rechercher des voitures selon les critères souhaités, et même de communiquer avec les propriétaires des véhicules.",
-      projectLink: '',
+      projectLink: 'https://github.com/Tohiniaina/Tomobilina',
       pictures: [
         "../../assets/img1.jpg",
       ]
