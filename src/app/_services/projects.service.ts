@@ -26,7 +26,7 @@ export class ProjectsService {
       backEnd: 'JAVA',
       database: 'PostgreSQL',
       description: "SolarPanel Manager est une application de gestion d'energie solaire. Grâce à des fonctionnalités avancées telles que la surveillance en temps réel, l'analyse des performances et la prévision des coupures mon application pemet aux utilisateurs de maximiser leur production d'énergie solaire.",
-      projectLink: '',
+      projectLink: 'https://github.com/Tohiniaina/SolarPanel.git',
       pictures: []
     },
     {
@@ -36,7 +36,7 @@ export class ProjectsService {
       backEnd: 'JAVA',
       database: 'PostgreSQL',
       description: "Poketra est une application back-office dédiée à la fabrication et de la vente de sacs malagasy. Cette application permet de gerer les matières premieres (y compris les stocks), la fabrication, la vente et surtout l'etats de stock.",
-      projectLink: '',
+      projectLink: 'https://github.com/Tohiniaina/Poketra.git',
       pictures: [
         "../../assets/Poketra/img1.png",
         "../../assets/Poketra/img2.png",
@@ -52,7 +52,7 @@ export class ProjectsService {
       backEnd: 'C#',
       database: 'PostgreSQL',
       description: "Katsaka est une application de gestion de suivi de culture de maÏs qui permet de suivre en temps réel la culture(rapport mensuel, les anomalies, ...), de gerer les dépenses des besoins et surtout faire la prevision de recolte.",
-      projectLink: '',
+      projectLink: 'https://github.com/Tohiniaina/Katsaka.git',
       pictures: []
     },
   ];
