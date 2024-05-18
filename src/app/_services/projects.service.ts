@@ -9,15 +9,33 @@ export class ProjectsService {
   projects: Project[] = [
     {
       id: 1,
+      name: 'CodexConstruction',
+      frontEnd: 'JSP',
+      backEnd: 'SpringBoot (JAVA)',
+      database: 'PostgreSQL',
+      description: "Codex Construction est une application de gestion de construction BTP. Dans cette application, on peut gérer l’aspect technique et l’aspect financier grâce à ses différentes fonctionnalités implémentées",
+      projectLink: 'https://github.com/Tohiniaina/CodexConstruction.git',
+      pictures: []
+    },
+    {
+      id: 2,
       name: 'Okaz',
       frontEnd: 'React JS/ Ionic',
       backEnd: 'SpringBoot (JAVA)',
       database: 'PostgreSQL',
       description: "Okaz est une multi-plateforme dédiée au vente de voiture d'occasion ou neuve. Cette application permet aux utilisateurs de consulter des annonces, de publier des annonces de vente, de rechercher des voitures selon les critères souhaités, et même de communiquer avec les propriétaires des véhicules.",
       projectLink: 'https://github.com/Tohiniaina/Tomobilina',
-      pictures: [
-        "../../assets/img1.jpg",
-      ]
+      pictures: []
+    },
+    {
+      id: 4,
+      name: 'Poketra',
+      frontEnd: 'JSP',
+      backEnd: 'JAVA',
+      database: 'PostgreSQL',
+      description: "Poketra est une application back-office dédiée à la fabrication et de la vente de sacs malagasy. Cette application permet de gerer les matières premieres (y compris les stocks), la fabrication, la vente et surtout l'etats de stock.",
+      projectLink: 'https://github.com/Tohiniaina/Poketra',
+      pictures: []
     },
     {
       id: 3,
@@ -30,23 +48,7 @@ export class ProjectsService {
       pictures: []
     },
     {
-      id: 2,
-      name: 'Poketra',
-      frontEnd: 'JSP',
-      backEnd: 'JAVA',
-      database: 'PostgreSQL',
-      description: "Poketra est une application back-office dédiée à la fabrication et de la vente de sacs malagasy. Cette application permet de gerer les matières premieres (y compris les stocks), la fabrication, la vente et surtout l'etats de stock.",
-      projectLink: 'https://github.com/Tohiniaina/Poketra',
-      pictures: [
-        "../../assets/Poketra/img1.png",
-        "../../assets/Poketra/img2.png",
-        "../../assets/Poketra/img3.png",
-        "../../assets/Poketra/img4.png",
-        "../../assets/Poketra/img5.png",
-      ]
-    },
-    {
-      id: 4,
+      id: 5,
       name: 'Katsaka',
       frontEnd: 'ASP .NET',
       backEnd: 'C#',
