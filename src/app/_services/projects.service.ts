@@ -57,6 +57,16 @@ export class ProjectsService {
       projectLink: 'https://github.com/Tohiniaina/Katsaka',
       pictures: []
     },
+    {
+      id: 5,
+      name: 'Gestion Commerciale Entreprise',
+      frontEnd: 'PHP',
+      backEnd: 'CodeIgniter',
+      database: 'PostgreSQL',
+      description: "Cette application est un outil complet conçu pour automatiser et optimiser les processus commerciaux d'un entreprise. Elle offre une suite intégrée de fonctionnalités pour gérer les ventes, les achats et les stocks, permettant aux entreprises de centraliser leurs opérations commerciales en un seul endroit.",
+      projectLink: 'https://github.com/Tohiniaina/Gestion_Commerciale_Entreprise',
+      pictures: []
+    }
   ];
 
   constructor() { }
