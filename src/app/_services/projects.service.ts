@@ -10,11 +10,11 @@ export class ProjectsService {
     {
       id: 1,
       name: 'CodexConstruction',
-      frontEnd: 'JSP',
+      frontEnd: 'Angular JS',
       backEnd: 'SpringBoot (JAVA)',
       database: 'PostgreSQL',
-      description: "Codex Construction est une application de gestion de construction BTP. Dans cette application, on peut gérer l’aspect technique et l’aspect financier grâce à ses différentes fonctionnalités implémentées",
-      projectLink: 'https://github.com/Tohiniaina/CodexConstruction.git',
+      description: "Une application de gestion pour une entreprise BTP, permettant de gérer les aspects techniques et financiers des projets de construction. Elle offre la création et la visualisation de devis, le suivi des travaux, des tableaux de bord de suivi et des statistiques.",
+      projectLink: 'https://github.com/Tohiniaina/CodexConstructionAngular',
       pictures: []
     },
     {
