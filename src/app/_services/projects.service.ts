@@ -8,7 +8,7 @@ export class ProjectsService {
 
   projects: Project[] = [
     {
-      id: 1,
+      id: 0,
       name: 'CodexConstruction',
       frontEnd: 'Angular JS',
       backEnd: 'SpringBoot (JAVA)',
@@ -18,7 +18,7 @@ export class ProjectsService {
       pictures: []
     },
     {
-      id: 2,
+      id: 1,
       name: 'Okaz',
       frontEnd: 'React JS/ Ionic',
       backEnd: 'SpringBoot (JAVA)',
@@ -28,7 +28,7 @@ export class ProjectsService {
       pictures: []
     },
     {
-      id: 4,
+      id: 2,
       name: 'Poketra',
       frontEnd: 'JSP',
       backEnd: 'JAVA',
@@ -48,7 +48,7 @@ export class ProjectsService {
       pictures: []
     },
     {
-      id: 5,
+      id: 4,
       name: 'Katsaka',
       frontEnd: 'ASP .NET',
       backEnd: 'C#',
